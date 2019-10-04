@@ -1,2 +1,2 @@
 # Word-Guess-Game
-javascript word guessing game
+2000's Emo Music Hangman
