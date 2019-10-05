@@ -23,7 +23,7 @@ let generateUnderscore = () => {
 }
 
 // get user guess
-document.addEventListener('keypress', (event) => {
+document.addEventListener('keypress', (event)) => {
     let keyword = String.fromCharCode(event.keycode);
     // if users guess is right
     if (chosenWord.indexOf(keyword) > -1) {
@@ -48,4 +48,4 @@ document.addEventListener('keypress', (event) => {
     function newFunction() {
         console.log(generateUnderscore());
     }
-);}
+}
